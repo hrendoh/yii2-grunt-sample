@@ -46,6 +46,9 @@ $config = [
             ],
         ],
         */
+        'assetManager' => [
+            'bundles' => false,
+        ],
     ],
     'params' => $params,
 ];

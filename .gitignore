@@ -25,3 +25,11 @@ composer.phar
 phpunit.phar
 # local phpunit config
 /phpunit.xml
+
+# node packages
+/node_modules
+
+# build files
+/web/css
+/web/fonts
+/web/js
