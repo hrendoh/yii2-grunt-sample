@@ -4,9 +4,58 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "479407875c975e7dbee0aefcb85e62d5",
-    "content-hash": "5c27dd23827e5c153817a7f3f5d227c6",
+    "hash": "0c09fc41d38beadf0063c7abe8edb38a",
+    "content-hash": "b8b83660d6ab5f220da7ab5eee90bfeb",
     "packages": [
+        {
+            "name": "bower-asset/angular",
+            "version": "v1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/angular/bower-angular.git",
+                "reference": "017a583b226a335740c5b50b3e9381a52d0bb260"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/angular/bower-angular/zipball/017a583b226a335740c5b50b3e9381a52d0bb260",
+                "reference": "017a583b226a335740c5b50b3e9381a52d0bb260",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "./angular.js",
+                "bower-asset-ignore": []
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/angular-route",
+            "version": "v1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/angular/bower-angular-route.git",
+                "reference": "6f03a206107b3ae860ee7f7fd061db252c452903"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/angular/bower-angular-route/zipball/6f03a206107b3ae860ee7f7fd061db252c452903",
+                "reference": "6f03a206107b3ae860ee7f7fd061db252c452903",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/angular": "1.5.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "./angular-route.js",
+                "bower-asset-ignore": []
+            },
+            "license": [
+                "MIT"
+            ]
+        },
         {
             "name": "bower-asset/bootstrap",
             "version": "v3.3.5",
