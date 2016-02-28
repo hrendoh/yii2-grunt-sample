@@ -33,3 +33,6 @@ phpunit.phar
 /web/css
 /web/fonts
 /web/js
+
+# Vagrant
+.vagrant
